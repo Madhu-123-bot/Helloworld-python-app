@@ -15,7 +15,7 @@ COPY . /app
 RUN pip install django
 
 # Expose port 8000
-EXPOSE 8000
+EXPOSE 8001
 
 # Run the Django server
-CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+CMD ["python", "manage.py", "runserver", "0.0.0.0:8001"]
